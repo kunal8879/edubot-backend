@@ -212,4 +212,4 @@ def response(sentence, userID='123', show_details=False):
 
             results.pop(0)
     else:
-        return "no such answer found"
+        return "Sorry I have no answer for that question"

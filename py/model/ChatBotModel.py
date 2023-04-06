@@ -4,5 +4,5 @@ from pydantic import BaseModel
 # ChatBotModel
 class ChatBotModel(BaseModel):
     author: str
-    sentence: str
+    chat: str
     time: str
