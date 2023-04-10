@@ -51,7 +51,7 @@ def edubot_post(chat_question: models.ChatBotModel, db: Session = Depends(get_db
         answer = edubot_ml.response(chat_question.chat)
 
         # saving the question to the database if no answer is found
-        if answer == "Sorry I have no answer for that question":
+        if answer == "Sorry I have no answer for that question right now. Please share you mail id for further assistance.":
             new_question = entities.Question()
             new_question.chat = chat_question.chat
             new_question.time = datetime.now()
@@ -103,3 +103,24 @@ def admin_register(admin: models.Admin, db: Session = Depends(get_db)):
             username='0',
             password='0'
         )
+
+
+@appAPI.get("/unanswered_questions")
+def unanswered_questions(db: Session = Depends(get_db)):
+    try:
+        # getting all the unanswered questions from the database
+        questions = db.query(entities.Question).all()
+
+        # converting the questions to a list of dictionaries
+        questions_list = []
+        for question in questions:
+            questions_list.append({
+                "id": question.id,
+                "chat": question.chat,
+                "time": question.time
+            })
+
+        return questions_list
+    except Exception as e:
+        print(e)
+        return []
