@@ -124,3 +124,17 @@ def unanswered_questions(db: Session = Depends(get_db)):
     except Exception as e:
         print(e)
         return []
+
+
+@appAPI.post("/login")
+def login(admin: models.Login, db: Session = Depends(get_db)):
+    try:
+        # checking if the username and password are correct
+        if db.query(entities.Admin).filter(entities.Admin.username == admin.username).filter(entities.Admin.password == admin.password).first():
+            return True
+        else:
+            return False
+    except Exception as e:
+        print(e)
+        return False
+

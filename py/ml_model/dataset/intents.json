@@ -21,22 +21,6 @@
       ]
     },
     {
-      "tag": "name",
-      "patterns": [
-        "What is your name?",
-        "what is name of your crerator?",
-        "what is name of your coder?",
-        "May I know your name?",
-        "Who am I speaking with?",
-        "May I have your name, please?",
-        "What should I call you?",
-        "What's your full name?"
-      ],
-      "responses": [
-        "Hello! My name is MC Stan and my creator is APSIT"
-      ]
-    },
-    {
       "tag": "goodbye",
       "patterns": [
         "See you later",
@@ -49,17 +33,6 @@
       "responses": [
         "Goodbye!",
         "Talk to you later"
-      ]
-    },
-    {
-      "tag": "labs",
-      "patterns": [
-        "how many labs are there",
-        "numbers of lab in departments",
-        "What is the total number of labs?"
-      ],
-      "responses": [
-        "There are x number of working labs present"
       ]
     },
     {
@@ -710,7 +683,246 @@
       "responses": [
         "Fee of the Institute is approved by Fee Regulating Authority as per MAHARASHTRA ACT No. XXVIII of 2015. Fees and any payments of Examination during the academics are to be paid by students by our Online Payment System only by Demand Draft(DD), UPI, Debit Card, Credit Card, and Net Banking. No cash payment is accepted. The online payment system is available on our website\nFor More Info: https://www.apsit.edu.in/fee-structure-2020-21"
       ]
+    },
+    {
+      "tag": "301",
+      "patterns": [
+        "lab 301",
+        "301",
+        "name of lab no 301",
+        "what is 301 lab specialized for"
+      ],
+      "responses": [
+        "301 lab is used for Software developments and Operations, It is the prime lab with technology suitable for software developements and managing its operations."
+      ]
+    },
+    {
+      "tag": "302",
+      "patterns": [
+        "lab 302",
+        "302",
+        "name of lab no 302",
+        "what is 302 lab specialized for"
+      ],
+      "responses": [
+        "The lab 302 is used for Network Design and Analysis. This lab has the perfect equipements and technology for all the Network analysis and Designing the network."
+      ]
+    },
+    {
+      "tag": "303",
+      "patterns": [
+        "lab 303",
+        "303",
+        "name of lab no 303",
+        "what is 303 lab specialized for"
+      ],
+      "responses": [
+        "The lab 303 is used for Operating system Design. This lab has the perfect equipment require to Create and design operating systems."
+      ]
+    },
+    {
+      "tag": "306",
+      "patterns": [
+        "lab 306",
+        "306",
+        "name of lab no 306",
+        "what is 306 lab specialized for"
+      ],
+      "responses": [
+        "306 Lab is created for the purpose of Iot and Big Data Analysis. This lab has a perfect equipments and devices inorder to perform such operations."
+      ]
+    },
+    {
+      "tag": "307",
+      "patterns": [
+        "lab 307",
+        "307",
+        "name of lab no 307",
+        "what is 307 lab specialized for"
+      ],
+      "responses": [
+        "This lab is known as Advance DevOPs lab. This lab has a perfect equipments and devices inorder to perform such operations."
+      ]
+    },
+    {
+      "tag": "308",
+      "patterns": [
+        "lab 308",
+        "308",
+        "name of lab no 308",
+        "what is 308 lab specialized for"
+      ],
+      "responses": [
+        "This lab is known as Stuctured and Object Oriented lab. This lab has a perfect equipments and devices inorder to learn about Structured languages as well as object oriented languages.\n Object oriented lab teaches how object orientation works in industry to make better applications"
+      ]
+    },
+    {
+      "tag": "309",
+      "patterns": [
+        "lab 309",
+        "309",
+        "name of lab no 309",
+        "what is 309 lab specialized for"
+      ],
+      "responses": [
+        "This lab is known as Algorithms and Complexity Theory lab. This lab has a perfect equipments and devices inorder to learn about Algorithms and how they work as well as what the complexity they face during their running time.\nThe complexity can be in time or space."
+      ]
+    },
+    {
+      "tag": "310",
+      "patterns": [
+        "lab 310",
+        "310",
+        "name of lab no 310",
+        "what is 310 lab specialized for"
+      ],
+      "responses": [
+        "This lab is known as Web Technologies lab. This lab has a perfect equipments and devices inorder to learn about webisites and how they operate and moreover learn how to create a website which is not only appealing but also functional."
+      ]
+    },
+    {
+      "tag": "311",
+      "patterns": [
+        "lab 311",
+        "311",
+        "name of lab no 311",
+        "what is 311 lab specialized for"
+      ],
+      "responses": [
+        "This lab is known as Image processing and Computer Vision lab. This lab has a perfect equipments and devices to learn about computer vision and how image processing is done as it is one of the booming fields in the industry."
+      ]
+    },
+    {
+      "tag": "312",
+      "patterns": [
+        "lab 312",
+        "312",
+        "name of lab no 312",
+        "what is 312 lab specialized for"
+      ],
+      "responses": [
+        "This lab is known as High Performance Computing lab. This lab has a perfect equipments and devices inorder to learn about high performance computing and how to implement performance computing in real life."
+      ]
+    },
+    {
+      "tag": "313",
+      "patterns": [
+        "lab 313",
+        "313",
+        "name of lab no 313",
+        "what is 313 lab specialized for"
+      ],
+      "responses": [
+        "This lab is known as System and Network Secutiry lab. This lab has a perfect equipments and devices inorder to learn about Network Security as it is one of the topics which is more needed in real life due to all the vulnerabities in systems and networks.\nThis lab teaches how to create a network with minimal loopholes and vulnerabilites."
+      ]
+    },
+    {
+      "tag": "314B",
+      "patterns": [
+        "lab 314B",
+        "314B",
+        "name of lab no 314B",
+        "what is 314B lab specialized for"
+      ],
+      "responses": [
+        "This lab is known as Cloud Computing and virtualization. This lab has a perfect equipments and devices inorder to perform such operations."
+      ]
+    },
+    {
+      "tag": "317",
+      "patterns": [
+        "lab 317",
+        "317",
+        "name of lab no 317",
+        "what is 317 lab specialized for"
+      ],
+      "responses": [
+        "This lab is known as Project Lab. This lab also has Open Source Technologies. This lab has a perfect equipments and devices inorder to perform such operations."
+      ]
+    },
+    {
+      "tag": "316",
+      "patterns": [
+        "lab 316",
+        "316",
+        "name of lab no 316",
+        "what is 316 lab specialized for"
+      ],
+      "responses": [
+        "This lab is known for AI and Machine Learning. This lab has a perfect equipments and devices inorder to perform such operations."
+      ]
+    },
+    {
+      "tag": "scholarship",
+      "patterns": [
+        "scholarship",
+        "scholarship details",
+        "scholarship information",
+        "scholarship details"
+      ],
+      "responses": [
+        "There are many scholarships available for the students of the university. The students can apply for the scholarship by filling the form and submitting it. But the student must clear the basic criteria for the scholarship. The basic criteria for the scholarship you are applying to will be made available later."
+      ]
+    },
+    {
+      "tag": "placement",
+      "patterns": [
+        "placement",
+        "placement details",
+        "placement information",
+        "placement details"
+      ],
+      "responses": [
+        "The placement cell of the university is very active and has a good record of placements. The students are trained for the placements and are given the best opportunities to get placed in the best companies. The placement cell of the university is very active and has a good record of placements. The students are trained for the placements and are given the best opportunities to get placed in the best companies."
+      ]
+    },
+    {
+      "tag": "fee",
+      "patterns": [
+        "fee",
+        "fee details",
+        "fee information",
+        "fee details"
+      ],
+      "responses": [
+        "The fee structure of the university is very reasonable and is affordable by all the students. The fee structure of the university is very reasonable and is affordable by all the students. The fee structure of the university is very reasonable and is affordable by all the students."
+      ]
+    },
+    {
+      "tag": "hostel",
+      "patterns": [
+        "hostel",
+        "hostel details",
+        "hostel information",
+        "hostel details"
+      ],
+      "responses": [
+        "There is no hostel facility available for the students of the university. There is no hostel facility available for the students of the university. There is no hostel facility available for the students of the university."
+      ]
+    },
+    {
+      "tag": "library",
+      "patterns": [
+        "library",
+        "library details",
+        "library information",
+        "library details"
+      ],
+      "responses": [
+        "The library of the university is very good and has a good collection of books. The library of the university is very good and has a good collection of books. The library of the university is very good and has a good collection of books."
+      ]
+    },
+    {
+      "tag": "sports",
+      "patterns": [
+        "sports",
+        "sports details",
+        "sports information",
+        "sports details"
+      ],
+      "responses": [
+        "The sports facilities of the university are very good and are very comfortable for the students. The sports facilities of the university are very good and are very comfortable for the students. The sports facilities of the university are very good and are very comfortable for the students."
+      ]
     }
   ]
 }
-  
