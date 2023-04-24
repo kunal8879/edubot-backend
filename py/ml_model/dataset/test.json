@@ -1,0 +1,716 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "hello",
+        "hey",
+        "good day",
+        "Greetings",
+        "Hi",
+        "Nice to see you!",
+        "how are you"
+      ],
+      "responses": [
+        "Hello!",
+        "Hey!",
+        "What can i do for you?",
+        "How can i help you?",
+        "Hi there!",
+        "Hi!"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What is your name?",
+        "what is name of your crerator?",
+        "what is name of your coder?",
+        "May I know your name?",
+        "Who am I speaking with?",
+        "May I have your name, please?",
+        "What should I call you?",
+        "What's your full name?"
+      ],
+      "responses": [
+        "Hello! My name is MC Stan and my creator is APSIT"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "See you later",
+        "Goodbye",
+        "Have a good day",
+        "bye",
+        "cya",
+        "see you soon"
+      ],
+      "responses": [
+        "Goodbye!",
+        "Talk to you later"
+      ]
+    },
+    {
+      "tag": "labs",
+      "patterns": [
+        "how many labs are there",
+        "numbers of lab in departments",
+        "What is the total number of labs?"
+      ],
+      "responses": [
+        "There are x number of working labs present"
+      ]
+    },
+    {
+      "tag": "vision",
+      "patterns": [
+        "What is the vision of the department",
+        "what is the objective of the computer department"
+      ],
+      "responses": [
+        "To become nationally reputed department producing universally competent engineers, to benefit sustained growth of an individual and the society at large."
+      ]
+    },
+    {
+      "tag": "mission",
+      "patterns": [
+        "What is the mission of the department",
+        "what is the goal of the computer department"
+      ],
+      "responses": [
+        "1) To provide learning ambience for students and faculties through infrastructure, expertise and training.\n 2) To develop technically competent professionals with strong foundations, capable of adapting with the changing technologies for developing world class software.\n 3) To inculcate professional, social and ethical values in students by providing opportunities to solve environmental and social problems.."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where is the college located?",
+        "what is the address of the college?",
+        "what is the location of the college?",
+        "where is the college?",
+        "Address of the college?",
+        "Could you tell me where the college is situated?",
+        "Do you know the address of the college?",
+        "What is the exact location of the college?"
+      ],
+      "responses": [
+        "Survey No. 12, 13, Opp. Hypercity Mall, Kasarvadavali, Ghodbunder Road, Thane West, Thane, Maharashtra 400615"
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "What is the contact number of the college?",
+        "what is the phone number of the college?",
+        "what is the contact of the college?",
+        "what is the phone number of the college?",
+        "contact number",
+        "contact of college",
+        "what is the telephone number of the college"
+      ],
+      "responses": [
+        "Phone 022-25973737 and Mobile 7738305400 or 7738940600"
+      ]
+    },
+    {
+      "tag": "occupancy",
+      "patterns": [
+        "maximum intake",
+        "What is the intake in the computer engineering department?",
+        "How many students are taken in per year?",
+        "what is the maximum amount of students in this department?",
+        "What is the maximum capacity of the computer engineering department?",
+        "What is the maximum occupancy of the computer engineering department?",
+        "maximum occupancy",
+        "occupancy of computer department",
+        "capacity of comps department"
+      ],
+      "responses": [
+        "The maximum intake of students in the department is 180"
+      ]
+    },
+    {
+      "tag": "HOD",
+      "patterns": [
+        "Who is the head of department of computer engineering?",
+        "What is the name of the head of the department?",
+        "what is the name of the hod of the department?",
+        "Who is the hod of computer engineering?",
+        "name of head of department",
+        "who is hod",
+        "name of hod",
+        "name of hod of comps department",
+        "name of hod of computer engineering department"
+      ],
+      "responses": [
+        "Prof. Sachin H. Malave is the head of department of computer engineering"
+      ]
+    },
+    {
+      "tag": "faculty",
+      "patterns": [
+        "How many faculty are there in this department?",
+        "what is the total amount of faculty in computer department?",
+        "Who many teachers are there in this department?",
+        "what is the total amount of teachers in computer department?",
+        "number of faculty",
+        "no. of teachers"
+      ],
+      "responses": [
+        "There are currently 29 faculty in the computer engineering department.",
+        "There are 29 faculty  where there are 1 head of department\n 2 associate professors\n 24 assistant professors\n 2 teaching assistant."
+      ]
+    },
+    {
+      "tag": "Qualifications",
+      "patterns": [
+        "What are the qualifications of the faculty?",
+        "What are the qualifications of the teachers?",
+        "Qualifications of the faculty",
+        "qualification of teachers"
+      ],
+      "responses": [
+        "There are 3 professors with PhD degree, 9 professors who are purusing PhD, 12 professors with M.E degree , 3 with M.Tech degree and 2 with B.E degree"
+      ]
+    },
+    {
+      "tag": "PhD",
+      "patterns": [
+        "What are the name of the professors with PhD degree?",
+        "Name all the professor with PhD degree"
+      ],
+      "responses": [
+        "There are currently 3 professors with PhD degree which are Dr. Pravin Adivarekar, Dr. Rahul Ambekar and Dr. Mamta Kurvey"
+      ]
+    },
+    {
+      "tag": "Prof. Sachin H Malave",
+      "patterns": [
+        "Prof. Sachin H Malave",
+        "Who is Prof. Sachin H Malave",
+        "Prof. Sachin H Malave details",
+        "who is Sachin H Malave",
+        "Sachin H Malave details",
+        "Prof. Sachin H Malave info",
+        "Prof. Sachin H Malave information",
+        "Sachin Sir",
+        "Hod info",
+        "Hod information",
+        "hod details",
+        "head of department information",
+        "head of department details"
+      ],
+      "responses": [
+        "Name: Prof. Sachin H Malave\nDesignation: Head of Department\nQualification: Pursuing PhD\nExperience: 19 years\nInterest Areas: High Performance Computing, Microprocessors, Embedded Systems\nFor More Info: https://www.apsit.edu.in/prof-sachin-h-malave"
+      ]
+    },
+    {
+      "tag": "Dr. Rahul Ambekar",
+      "patterns": [
+        "Dr. Rahul Ambekar",
+        "Who is Dr. Rahul Ambekar",
+        "Dr. Rahul Ambekar details",
+        "who is Rahul Ambekar",
+        "Rahul Ambekar details",
+        "Dr. Rahul Ambekar info",
+        "Dr. Rahul Ambekar information",
+        "Rahul Sir"
+      ],
+      "responses": [
+        "Name: Dr. Rahul Ambekar\nDesignation: Associate Professor\nQualification: PhD\nExperience: 19 years\nInterest Areas: Software Engineering, Project Management\nFor More Info: https://www.apsit.edu.in/dr-rahul-ambekar"
+      ]
+    },
+    {
+      "tag": "Dr. Pravin Adivarekar",
+      "patterns": [
+        "Dr. Pravin Adivarekar",
+        "Who is Dr. Pravin Adivarekar",
+        "Dr. Pravin Adivarekar details",
+        "who is Pravin Adivarekar",
+        "Pravin Adivarekar details",
+        "Dr. Pravin Adivarekar info",
+        "Dr. Pravin Adivarekar information",
+        "Pravin Sir"
+      ],
+      "responses": [
+        "Name: Dr. Pravin Adivarekar\nDesignation: Associate Professor\nQualification: PhD\nExperience: 15 years\nInterest Areas: Wireless networks, Data Science & Analytics, Network Security,Cyber Security\nFor More Info:https://www.apsit.edu.in/dr-pravin-adivarekar"
+      ]
+    },
+    {
+      "tag": "Dr. Mamta Kurvey",
+      "patterns": [
+        "Dr. Mamta Kurvey",
+        "Who is Dr. Mamta Kurvey",
+        "Dr. Mamta Kurvey details",
+        "who is Mamta Kurvey",
+        "Mamta Kurvey details",
+        "Dr. Mamta Kurvey info",
+        "Dr. Mamta Kurvey information",
+        "Mamta Maam"
+      ],
+      "responses": [
+        "Name: Dr. Mamta Kurvey\nDesignation: Assistant Professor\nQualification: PhD\nExperience: 25 years\nInterest Areas: Advanced Tele Communication\nFor More Info:https://www.apsit.edu.in/dr-mamta-kurvey"
+      ]
+    },
+    {
+      "tag": "Prof. Sukhada Aloni",
+      "patterns": [
+        "Prof. Sukhada Aloni",
+        "Who is Prof. Sukhada Aloni",
+        "Prof. Sukhada Aloni details",
+        "who is Sukhada Aloni",
+        "Sukhada Aloni details",
+        "Prof. Sukhada Aloni info",
+        "Prof. Sukhada Aloni information",
+        "Sukhada Maam"
+      ],
+      "responses": [
+        "Name: Prof. Sukhada Aloni\nDesignation: Assistant Professor\nQualification: Pursuing PhD\nExperience: 16 years\nInterest Areas: Data Science & Analytics, Machine Learning\nFor More Info:https://www.apsit.edu.in/prof-sukhada-aloni"
+      ]
+    },
+    {
+      "tag": "Prof. Sachin Takmare",
+      "patterns": [
+        "Prof. Sachin Takmare",
+        "Who is Prof. Sachin Takmare",
+        "Prof. Sachin Takmare details",
+        "who is Sachin Takmare",
+        "Sachin Takmare details",
+        "Prof. Sachin Takmare info",
+        "Prof. Sachin Takmare information",
+        "Sachin Sir"
+      ],
+      "responses": [
+        "Name: Prof. Sachin Takmare\nDesignation: Assistant Professor\nQualification: Pursuing PhD\nExperience: 19 years\nInterest Areas: Artificial Intelligence, Data Mining\nFor More Info:https://www.apsit.edu.in/prof-sachin-takmare"
+      ]
+    },
+    {
+      "tag": "Prof. Varsha Wangikar",
+      "patterns": [
+        "Prof. Varsha Wangikar",
+        "Who is Prof. Varsha Wangikar",
+        "Prof. Varsha Wangikar details",
+        "who is Varsha Wangikar",
+        "Varsha Wangikar details",
+        "Prof. Varsha Wangikar info",
+        "Prof. Varsha Wangikar information",
+        "Varsha Maam"
+      ],
+      "responses": [
+        "Name: Prof. Varsha Wangikar\nDesignation: Assistant Professor\nQualification: M.E.\nExperience: 21 years\nInterest Areas: Database Management System, Software Engineering, Machine Learning\nFor More Info:https://www.apsit.edu.in/prof-varsha-wangikar"
+      ]
+    },
+    {
+      "tag": "Prof. Merlin Priya Jacob",
+      "patterns": [
+        "Prof. Merlin Priya Jacob",
+        "Who is Prof. Merlin Priya Jacob",
+        "Prof. Merlin Priya Jacob details",
+        "who is Merlin Priya Jacob",
+        "Merlin Priya Jacob details",
+        "Prof. Merlin Priya Jacob info",
+        "Prof. Merlin Priya Jacob information",
+        "Merlin Maam"
+      ],
+      "responses": [
+        "Name: Prof. Merlin Priya Jacob\nDesignation: Assistant Professor\nQualification: M.E.\nExperience: 14 years\nInterest Areas: Open Source Technologies, Data Science & Analytics, Cyber security\nFor More Info:https://www.apsit.edu.in/prof-merlin-priya-jacob"
+      ]
+    },
+    {
+      "tag": "Prof. Deepali Kayande",
+      "patterns": [
+        "Prof. Deepali Kayande",
+        "Who is Prof. Deepali Kayande",
+        "Prof. Deepali Kayande details",
+        "who is Deepali Kayande",
+        "Deepali Kayande details",
+        "Prof. Deepali Kayande info",
+        "Prof. Deepali Kayande information",
+        "Deepali Maam"
+      ],
+      "responses": [
+        "Name: Prof. Deepali Kayande\nDesignation: Assistant Professor\nQualification: M.Tech\nExperience: 14 years\nInterest Areas: Data Science & Analytics, Cloud Computing & Virtualization, Programming\nFor More Info:https://www.apsit.edu.in/prof-deepali-kayande-1"
+      ]
+    },
+    {
+      "tag": "Prof. Brinal Colaco",
+      "patterns": [
+        "Prof. Brinal Colaco",
+        "Who is Prof. Brinal Colaco",
+        "Prof. Brinal Colaco details",
+        "who is Brinal Colaco",
+        "Brinal Colaco details",
+        "Prof. Brinal Colaco info",
+        "Prof. Brinal Colaco information",
+        "Brinal Maam"
+      ],
+      "responses": [
+        "Name: Prof. Brinal Colaco\nDesignation: Assistant Professor\nQualification: M.E.\nExperience: 10 years\nInterest Areas: Programming, Image Processing\nFor More Info:https://www.apsit.edu.in/prof-brinal-colaco"
+      ]
+    },
+    {
+      "tag": "Prof. Archana Kotangale",
+      "patterns": [
+        "Prof. Archana Kotangale",
+        "Who is Prof. Archana Kotangale",
+        "Prof. Archana Kotangale details",
+        "who is Archana Kotangale",
+        "Archana Kotangale details",
+        "Prof. Archana Kotangale info",
+        "Prof. Archana Kotangale information",
+        "Archana Maam"
+      ],
+      "responses": [
+        "Name: Prof. Archana Kotangale\nDesignation: Assistant Professor\nQualification: Pursuing PhD\nExperience: 10 years\nInterest Areas: Advanced Database Management,Data Science & Analytics,Big Data Security,Programming\nFor More Info:https://www.apsit.edu.in/prof-archana-kotangale"
+      ]
+    },
+    {
+      "tag": "Prof. Ramya R B",
+      "patterns": [
+        "Prof. Ramya R B",
+        "Who is Prof. Ramya R B",
+        "Prof. Ramya R B details",
+        "who is Ramya R B",
+        "Ramya R B details",
+        "Prof. Ramya R B info",
+        "Prof. Ramya R B information",
+        "Ramya Maam"
+      ],
+      "responses": [
+        "Name: Prof. Ramya R B\nDesignation: Assistant Professor\nQualification: M.E.\nExperience: 10 years\nInterest Areas: Data Science & Analytics, Machine Learning,Deep Learning\nFor More Info:https://www.apsit.edu.in/prof-ramya-r-b"
+      ]
+    },
+    {
+      "tag": "Prof. Bharti Khemani",
+      "patterns": [
+        "Prof. Bharti Khemani",
+        "Who is Prof. Bharti Khemani",
+        "Prof. Bharti Khemani details",
+        "who is Bharti Khemani",
+        "Bharti Khemani details",
+        "Prof. Bharti Khemani info",
+        "Prof. Bharti Khemani information",
+        "Bharti Maam"
+      ],
+      "responses": [
+        "Name: Prof. Bharti Khemani\nDesignation: Assistant Professor\nQualification: Pursuing PhD\nExperience: 12 years\nInterest Areas: Deep Learning, Machine Learning, Neural Network, Programming Languages\nFor More Info:https://www.apsit.edu.in/prof-bharti-khemani"
+      ]
+    },
+    {
+      "tag": "Prof. Babita Gawate",
+      "patterns": [
+        "Prof. Babita Gawate",
+        "Who is Prof. Babita Gawate",
+        "Prof. Babita Gawate details",
+        "who is Babita Gawate",
+        "Babita Gawate details",
+        "Prof. Babita Gawate info",
+        "Prof. Babita Gawate information",
+        "Babita Maam"
+      ],
+      "responses": [
+        "Name: Prof. Babita Gawate\nDesignation: Assistant Professor\nQualification: M.Tech\nExperience: 14 years\nFor More Info:https://www.apsit.edu.in/prof-babita-gawate"
+      ]
+    },
+    {
+      "tag": "Prof. Shamika Mule",
+      "patterns": [
+        "Prof. Shamika Mule",
+        "Who is Prof. Shamika Mule",
+        "Prof. Shamika Mule details",
+        "who is Shamika Mule",
+        "Shamika Mule details",
+        "Prof. Shamika Mule info",
+        "Prof. Shamika Mule information",
+        "Shamika Maam"
+      ],
+      "responses": [
+        "Name: Prof. Shamika Mule\nDesignation: Assistant Professor\nQualification: M.E.\nExperience: 13 years\nInterest Areas: Data Science & Analytics, Machine Learning\nFor More Info:https://www.apsit.edu.in/prof-shamika-mule"
+      ]
+    },
+    {
+      "tag": "Prof. Kadambari Deherkar",
+      "patterns": [
+        "Prof. Kadambari Deherkar",
+        "Who is Prof. Kadambari Deherkar",
+        "Prof. Kadambari Deherkar details",
+        "who is Kadambari Deherkar",
+        "Kadambari Deherkar details",
+        "Prof. Kadambari Deherkar info",
+        "Prof. Kadambari Deherkar information",
+        "Kadambari Maam"
+      ],
+      "responses": [
+        "Name: Prof. Kadambari Deherkar\nDesignation: Assistant Professor\nQualification: M.E.\nExperience: 12 years\nInterest Areas: Databases, Machine Learning, Data Science\nFor More Info:https://www.apsit.edu.in/prof-kadambari-deherkar"
+      ]
+    },
+    {
+      "tag": "Prof. Harshali Bhuwad",
+      "patterns": [
+        "Prof. Harshali Bhuwad",
+        "Who is Prof. Harshali Bhuwad",
+        "Prof. Harshali Bhuwad details",
+        "who is Harshali Bhuwad",
+        "Harshali Bhuwad details",
+        "Prof. Harshali Bhuwad info",
+        "Prof. Harshali Bhuwad information",
+        "Harshali Maam"
+      ],
+      "responses": [
+        "Name: Prof. Harshali Bhuwad\nDesignation: Assistant Professor\nQualification: Pursuing PhD\nExperience: 11 years\nInterest Areas: Web Analytics\nFor More Info:https://www.apsit.edu.in/prof-harshali-bhuwad"
+      ]
+    },
+    {
+      "tag": "Prof. Deepak Khachane",
+      "patterns": [
+        "Prof. Deepak Khachane",
+        "Who is Prof. Deepak Khachane",
+        "Prof. Deepak Khachane details",
+        "who is Deepak Khachane",
+        "Deepak Khachane details",
+        "Prof. Deepak Khachane info",
+        "Prof. Deepak Khachane information",
+        "Deepak Sir"
+      ],
+      "responses": [
+        "Name: Prof. Deepak Khachane\nDesignation: Assistant Professor\nQualification: M.E.\nExperience: 11 years\nInterest Areas: Cloud Computing & Virtualization, Database, Data Structures\nFor More Info:https://www.apsit.edu.in/prof-deepak-khachane"
+      ]
+    },
+    {
+      "tag": "Prof. Suchita Dange",
+      "patterns": [
+        "Prof. Suchita Dange",
+        "Who is Prof. Suchita Dange",
+        "Prof. Suchita Dange details",
+        "who is Suchita Dange",
+        "Suchita Dange details",
+        "Prof. Suchita Dange info",
+        "Prof. Suchita Dange information",
+        "Suchita Maam"
+      ],
+      "responses": [
+        "Name: Prof. Suchita Dange\nDesignation: Assistant Professor\nQualification: M.Tech\nExperience: 1 years\nFor More Info:https://www.apsit.edu.in/prof-suchita-dange"
+      ]
+    },
+    {
+      "tag": "Prof. Vishakha Chaudhari",
+      "patterns": [
+        "Prof. Vishakha Chaudhari",
+        "Who is Prof. Vishakha Chaudhari",
+        "Prof. Vishakha Chaudhari details",
+        "who is Vishakha Chaudhari",
+        "Vishakha Chaudhari details",
+        "Prof. Vishakha Chaudhari info",
+        "Prof. Vishakha Chaudhari information",
+        "Vishakha Maam"
+      ],
+      "responses": [
+        "Name: Prof. Vishakha Chaudhari\nDesignation: Assistant Professor\nQualification: M.E.\nExperience: 10 years\nInterest Areas: operating system, microprocessor, database management, computer fundamentals, networking concepts, mobile computing, Web page designing\nFor More Info:https://www.apsit.edu.in/prof-vishakha-chaudhari"
+      ]
+    },
+    {
+      "tag": "Prof. Pranali Patil",
+      "patterns": [
+        "Prof. Pranali Patil",
+        "Who is Prof. Pranali Patil",
+        "Prof. Pranali Patil details",
+        "who is Pranali Patil",
+        "Pranali Patil details",
+        "Prof. Pranali Patil info",
+        "Prof. Pranali Patil information",
+        "Pranali Maam"
+      ],
+      "responses": [
+        "Name: Prof. Pranali Patil\nDesignation: Assistant Professor\nQualification: M.E.\nExperience: 9 years\nInterest Areas: Artificial Intelligence, Internet of Things, Databases\nFor More Info:https://www.apsit.edu.in/prof-pranali-patil"
+      ]
+    },
+    {
+      "tag": "Prof. Ashwini Gaikwad",
+      "patterns": [
+        "Prof. Ashwini Gaikwad",
+        "Who is Prof. Ashwini Gaikwad",
+        "Prof. Ashwini Gaikwad details",
+        "who is Ashwini Gaikwad",
+        "Ashwini Gaikwad details",
+        "Prof. Ashwini Gaikwad info",
+        "Prof. Ashwini Gaikwad information",
+        "Ashwini Maam"
+      ],
+      "responses": [
+        "Name: Prof. Ashwini Gaikwad\nDesignation: Assistant Professor\nQualification: Pursuing PhD\nExperience: 9 years\nInterest Areas: Thermal Image Processing, Machine Learning, Algorithms\nFor More Info:https://www.apsit.edu.in/prof-ashvini-gaikwad"
+      ]
+    },
+    {
+      "tag": "Prof. Tanvi Kapdi",
+      "patterns": [
+        "Prof. Tanvi Kapdi",
+        "Who is Prof. Tanvi Kapdi",
+        "Prof. Tanvi Kapdi details",
+        "who is Tanvi Kapdi",
+        "Tanvi Kapdi details",
+        "Prof. Tanvi Kapdi info",
+        "Prof. Tanvi Kapdi information",
+        "Tanvi Maam"
+      ],
+      "responses": [
+        "Name: Prof. Tanvi Kapdi\nDesignation: Assistant Professor\nQualification: Pursuing PhD\nExperience: 8 years\nInterest Areas: Machine Learning, Bioinformatics\nFor More Info:https://www.apsit.edu.in/prof-tanvi-kapdi"
+      ]
+    },
+    {
+      "tag": "Prof. Rushikesh Nikam",
+      "patterns": [
+        "Prof. Rushikesh Nikam",
+        "Who is Prof. Rushikesh Nikam",
+        "Prof. Rushikesh Nikam details",
+        "who is Rushikesh Nikam",
+        "Rushikesh Nikam details",
+        "Prof. Rushikesh Nikam info",
+        "Prof. Rushikesh Nikam information",
+        "Rushikesh Sir"
+      ],
+      "responses": [
+        "Name: Prof. Rushikesh Nikam\nDesignation: Assistant Professor\nQualification: Pursuing PhD\nExperience: 7 years\nInterest Areas: Cloud Computing & Security\nFor More Info:https://www.apsit.edu.in/prof-rushikesh-nikam"
+      ]
+    },
+    {
+      "tag": "Prof. Selvin Furtado",
+      "patterns": [
+        "Prof. Selvin Furtado",
+        "Who is Prof. Selvin Furtado",
+        "Prof. Selvin Furtado details",
+        "who is Selvin Furtado",
+        "Selvin Furtado details",
+        "Prof. Selvin Furtado info",
+        "Prof. Selvin Furtado information",
+        "Selvin Sir"
+      ],
+      "responses": [
+        "Name: Prof. Selvin Furtado\nDesignation: Assistant Professor\nQualification: M.Tech\nExperience: 10 years\nInterest Areas: Machine Learning, Intrusion Detection, Cloud Computing, IOT Security, Application Programming & Development\nFor More Info:https://www.apsit.edu.in/prof-selvin-furtado"
+      ]
+    },
+    {
+      "tag": "Prof. Arathi Kamble",
+      "patterns": [
+        "Prof. Arathi Kamble",
+        "Who is Prof. Arathi Kamble",
+        "Prof. Arathi Kamble details",
+        "who is Arathi Kamble",
+        "Arathi Kamble details",
+        "Prof. Arathi Kamble info",
+        "Prof. Arathi Kamble information",
+        "Arathi Maam"
+      ],
+      "responses": [
+        "Name: Prof. Arathi Kamble\nDesignation: Assistant Professor\nQualification: M.E.\nExperience: 9 years\nInterest Areas: Algorithms, Artificial Intelligence, Machine Learning, Programming Languages, System Security, Database System, IOT\nFor More Info:https://www.apsit.edu.in/prof-arathi-kamble"
+      ]
+    },
+    {
+      "tag": "Prof. Vandana Virbhadre",
+      "patterns": [
+        "Prof. Vandana Virbhadre",
+        "Who is Prof. Vandana Virbhadre",
+        "Prof. Vandana Virbhadre details",
+        "who is Vandana Virbhadre",
+        "Vandana Virbhadre details",
+        "Prof. Vandana Virbhadre info",
+        "Prof. Vandana Virbhadre information",
+        "Vandana Maam"
+      ],
+      "responses": [
+        "Name: Prof. Vandana Virbhadre\nDesignation: Assistant Professor\nQualification: M.E.\nExperience: 3 years\nInterest Areas: Database Technologies, Web technologies, AI\nFor More Info:https://www.apsit.edu.in/prof-vandana-virbhadre"
+      ]
+    },
+    {
+      "tag": "Prof. Krishnapriya S",
+      "patterns": [
+        "Prof. Krishnapriya S",
+        "Who is Prof. Krishnapriya S",
+        "Prof. Krishnapriya S details",
+        "who is Krishnapriya S",
+        "Krishnapriya S details",
+        "Prof. Krishnapriya S info",
+        "Prof. Krishnapriya S information",
+        "Krishnapriya Maam"
+      ],
+      "responses": [
+        "Name: Prof. Krishnapriya S\nDesignation: Assistant Professor\nQualification: M.E.\nExperience: 1 years\nInterest Areas: Computer network, Mobile Communication, Blockchain\nFor More Info:https://www.apsit.edu.in/prof-krishnapriya-s"
+      ]
+    },
+    {
+      "tag": "Mrs. Priti Farkade",
+      "patterns": [
+        "Mrs. Priti Farkade",
+        "Who is Mrs. Priti Farkade",
+        "Mrs. Priti Farkade details",
+        "who is Priti Farkade",
+        "Priti Farkade details",
+        "Mrs. Priti Farkade info",
+        "Mrs. Priti Farkade information",
+        "Priti Maam"
+      ],
+      "responses": [
+        "Name: Mrs. Priti Farkade\nDesignation: Teaching Assistant\nQualification: B.E.\nExperience: 7 years\nFor More Info:https://www.apsit.edu.in/mrs-priti-farkade"
+      ]
+    },
+    {
+      "tag": "Mrs. Sayali Poojari",
+      "patterns": [
+        "Mrs. Sayali Poojari",
+        "Who is Mrs. Sayali Poojari",
+        "Mrs. Sayali Poojari details",
+        "who is Sayali Poojari",
+        "Sayali Poojari details",
+        "Mrs. Sayali Poojari info",
+        "Mrs. Sayali Poojari information",
+        "Sayali Maam"
+      ],
+      "responses": [
+        "Name: Mrs. Sayali Poojari\nDesignation: Teaching Assistant\nQualification: B.E.\nExperience: 6 years\nFor More Info:https://www.apsit.edu.in/ms-sayali-poojari"
+      ]
+    },
+    {
+      "tag": "Placement Record",
+      "patterns": [
+        "Placement",
+        "Placement Record",
+        "What is placement record",
+        "How is the placement of college",
+        "placement of comps department",
+        "placement of computer department"
+      ],
+      "responses": [
+        "APSIT has consistently maintained an excellent recruitment record. The graduates have been recruited by leading corporate. This has been the main attraction for students to opt for APSIT as the unique and prime choice during the admissions in the state.\nFor More Info: https://www.apsit.edu.in/placement-records"
+      ]
+    },
+    {
+      "tag": "tpo",
+      "patterns": [
+        "tpo",
+        "training and placement officer",
+        "tpo info",
+        "training and placement officer details",
+        "training and placement officer information",
+        "who is tpo",
+        "who is training and placement officer of college"
+      ],
+      "responses": [
+        "Name: Prof. Faisal Khan\nDesignation: Head Training and Placement\nFor More Info: https://www.apsit.edu.in/tpo"
+      ]
+    },
+    {
+      "tag": "Fees Structure",
+      "patterns": [
+        "Fees Structure",
+        "What is the free Structure of college",
+        "what is the fees",
+        "fees of current academic year",
+        "what is fees of college"
+      ],
+      "responses": [
+        "Fee of the Institute is approved by Fee Regulating Authority as per MAHARASHTRA ACT No. XXVIII of 2015. Fees and any payments of Examination during the academics are to be paid by students by our Online Payment System only by Demand Draft(DD), UPI, Debit Card, Credit Card, and Net Banking. No cash payment is accepted. The online payment system is available on our website\nFor More Info: https://www.apsit.edu.in/fee-structure-2020-21"
+      ]
+    }
+  ]
+}
+  
