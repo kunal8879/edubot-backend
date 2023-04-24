@@ -138,3 +138,50 @@ def login(admin: models.Login, db: Session = Depends(get_db)):
         print(e)
         return False
 
+
+@appAPI.post("/newUser")
+def new_user(user: models.User, db: Session = Depends(get_db)):
+    try:
+        # saving the new user to the database
+        user_new = entities.Users()
+        user_new.email = user.email
+        user_new.new_question = user.new_question
+        user_new.time = user.time
+        db.add(user_new)
+        db.commit()
+
+        return models.ChatBotModel(
+            author='bot',
+            chat='Thank you for your question. We will get back to you soon.',
+            time=datetime.now().strftime("%H:%M:%S")
+        )
+
+    except Exception as e:
+        print(e)
+        return models.User(
+            id='0',
+            email='0',
+            time='0'
+        )
+
+
+@appAPI.get("/users")
+def users(db: Session = Depends(get_db)):
+    try:
+        # getting all the users from the database
+        user_list = db.query(entities.Users).all()
+
+        # converting the users to a list of dictionaries
+        users_list = []
+        for user in user_list:
+            users_list.append({
+                "id": user.id,
+                "email": user.email,
+                "new_question": user.new_question,
+                "time": user.time
+            })
+
+        return users_list
+    except Exception as e:
+        print(e)
+        return []

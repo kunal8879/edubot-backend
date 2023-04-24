@@ -16,3 +16,9 @@ class Admin(BaseModel):
 class Login(BaseModel):
     username: str
     password: str
+
+
+class User(BaseModel):
+    email: str
+    new_question: str
+    time: str
