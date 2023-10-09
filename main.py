@@ -48,7 +48,7 @@ appAPI.add_middleware(
 def edubot_post(chat_question: models.ChatBotModel, db: Session = Depends(get_db)):
     try:
         # getting the response from the edubot_model
-        answer = edubot_ml.response(chat_question.chat)
+        answer = py.ml_model.edubot_ml.response(chat_question.chat)
 
         # saving the question to the database if no answer is found
         if answer == "Sorry I have no answer for that question right now. Please share you mail id for further assistance.":
@@ -153,7 +153,7 @@ def new_user(user: models.User, db: Session = Depends(get_db)):
         return models.ChatBotModel(
             author='bot',
             chat='Thank you for your question. We will get back to you soon.',
-            time=datetime.now().strftime("%H:%M:%S")
+            time=datetime.now().strftime("%d/%m/%y  %H:%M:%S")
         )
 
     except Exception as e:
